@@ -16,7 +16,7 @@ para correrla hay que levantar el servidor desde la consola, dandole la ruta de 
 
 comando para levantar el servidor:
 
-`json-server -w -p 5000 src/api/db.json`
+`json-server -w -p 5500 src/api/db.json`
 
 Nota: este servidor agrega los id consecutivos por si mismo.
 

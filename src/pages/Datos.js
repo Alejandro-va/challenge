@@ -27,7 +27,6 @@ let url = 'http://localhost:5500/horoscopo';
 
     console.log(form)
   
-    console.log(form)
     const requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -36,9 +35,8 @@ let url = 'http://localhost:5500/horoscopo';
     fetch(url, requestOptions)
        .then(res => setData([...data, res]))
 
-     
-  }
-  < Link to="/horoscopo" >.</Link >
+      }
+  
 
 console.log(form)
    return ( <div className="genero-principal">
@@ -74,6 +72,7 @@ console.log(form)
             {" "}
             <img className="azul" src={botonVolver} alt="" />{" "}
           </Link>
+
          <input title="boton enviar" alt="boton enviar" src={botonNaranja} type="image"  className="naranjado"/>
          </div>
          </form>

@@ -2,17 +2,12 @@ import React from 'react';
 import PantallaPrincipal from './pages/PantallaPrincipal';
 import Genero from './pages/Genero';
 import Datos from './pages/Datos';
+import Horoscopo from './pages/Horoscopo';
 import './App.css';
 import { Switch, Route, Link } from 'react-router-dom';
 
 function App() {
-/* const [sexo, setSexo] = React.useState("")
 
-   const genero = (dato) =>{
-      console.log(dato)
-      setSexo([...sexo,dato])
-   }
-   console.log(sexo) */
   return (
     <div className="App">
         <Switch>
@@ -28,6 +23,10 @@ function App() {
       <Route  exact path="/datos/:genero"  component={Datos}>
       {/* <Datos/> */}
       </Route>
+
+        <Route path="/horoscopo" >
+      <Horoscopo/>
+        </Route>
 
       </Switch>
     </div>
