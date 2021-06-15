@@ -34,8 +34,8 @@ let url = 'http://localhost:5500/horoscopo';
     };
     fetch(url, requestOptions)
        .then(res => setData([...data, res]))
-
       }
+     
   
 
 console.log(form)
