@@ -1,0 +1,53 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  border: thin solid #dedede;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  outline: none;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: transparent;
+  /*  color: rgb(51, 51, 204); */
+}
+
+.btn-Datos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  /*  border: 1px solid red; */
+  height: 2rem;
+  margin-top: 6rem;
+}
+.azul,
+.naranjado {
+  /* border: 1px solid red; */
+  width: 8rem;
+  height: 2rem;
+  margin: 2rem 2rem 0 2rem;
+}
+.naranjado {
+  height: 1.8rem;
+  margin-top: 1.8rem;
+}
+@media only screen and (min-width: 1024px) {
+  .segunda {
+    margin-right: auto;
+    margin-left: auto;
+    height: 4rem;
+    width: 80%;
+  }
+  .segundaImg {
+    height: 100%;
+  }
+}

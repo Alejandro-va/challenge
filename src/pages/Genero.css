@@ -1,0 +1,74 @@
+.genero-principal {
+  height: 100vh;
+}
+.nav-genero {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(51, 51, 204);
+  height: 5rem;
+  position: absolute;
+  top: 0;
+}
+.marcoAtras {
+  width: 5rem;
+}
+.imagenAtras {
+  width: 100%;
+}
+
+.tuGenero {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+.segunda {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 5rem 0;
+}
+.segundaImg {
+  width: 100%;
+}
+.labelSegunda {
+  color: rgb(51, 51, 204);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.genero-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.btn-generos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.genero {
+  width: 16rem;
+  /*   border: 1px solid red; */
+}
+
+.genero img {
+  width: 100%;
+}
+
+.caja-btn {
+  text-align: center;
+  width: 100%;
+}
+.botonBNaranja {
+  margin-top: 12rem;
+  width: 15rem;
+}
+
+/* @media only screen and (min-width: 1024px) {
+  .botonBNaranja {
+    width: 20%;
+  }
+} */
