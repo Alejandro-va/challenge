@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Datos.css";
 import { Link, useParams, Redirect } from "react-router-dom";
 import atras from "../image/Atras.png";

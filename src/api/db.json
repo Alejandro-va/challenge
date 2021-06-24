@@ -273,6 +273,67 @@
       "email": "prof.jahz@gmail.com",
       "date": "1982-07-05",
       "id": 38
+    },
+    {
+      "name": "jesus",
+      "genero": {
+        "genero": "neutro"
+      },
+      "email": "alejandro@gmail.com",
+      "date": "1982-07-05",
+      "id": 39
+    },
+    {
+      "name": "pedro",
+      "genero": {
+        "genero": "neutro"
+      },
+      "email": "prof.jahz@gmail.com",
+      "date": "2020-08-23",
+      "id": 40
+    },
+    {
+      "name": "dfgdg",
+      "genero": {
+        "genero": "neutro"
+      },
+      "email": "alejandro@gmail.com",
+      "date": "2021-06-23",
+      "id": 41
+    },
+    {
+      "name": "rrtyr pppp",
+      "genero": {
+        "genero": "chica"
+      },
+      "email": "prof.jahz@gmail.com",
+      "date": "2020-08-23",
+      "id": 42
+    },
+    {
+      "name": "pedro",
+      "genero": {
+        "genero": "chico"
+      },
+      "email": "alejandro@gmail.com",
+      "date": "2020-08-22",
+      "id": 43
+    },
+    {
+      "name": "rrtyr pppp",
+      "genero": {},
+      "email": "prof.jahz@gmail.com",
+      "date": "2021-01-23",
+      "id": 44
+    },
+    {
+      "name": "Alejandro",
+      "genero": {
+        "genero": "chico"
+      },
+      "email": "prof.jahz@gmail.com",
+      "date": "1982-07-05",
+      "id": 45
     }
   ]
 }
