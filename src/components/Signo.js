@@ -13,7 +13,6 @@ import Acuario from "../image/boton_acuario.png";
 import Piscis from "../image/boton_piscis.png";
 
 const signo = ({ fsigno }) => {
-  let prin;
   const zodiaco = (fsigno) => {
     var birthday = new Date(fsigno); //CUMPLAÑOS USUARIO
     var today = new Date();

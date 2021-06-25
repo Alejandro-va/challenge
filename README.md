@@ -21,3 +21,7 @@ comando para levantar el servidor:
 Nota: este servidor agrega los id consecutivos por si mismo.
 
 ---
+
+https://www.youtube.com/watch?v=GlXMtV0ylK0
+
+/_ ['acuario', 'aries',' cancer','capricornio','esporpion','geminis', 'leo', 'libra', 'picis', 'sagitario', 'tauro', 'virgo' ] _/

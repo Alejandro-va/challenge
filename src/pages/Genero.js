@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import el from "../image/gen-1.png";
 import neutro from "../image/gen-2.png";
 import ella from "../image/gen-3.png";
@@ -39,16 +39,16 @@ const Genero = () => {
   return (
     <div className="genero-principal">
       <nav className="nav-genero">
-         <div className="marcoAtras">
-         <Link  to="/">
-        <img src={atras} alt=""  className="imagenAtras"/>
-         </Link>
+        <div className="marcoAtras">
+          <Link to="/">
+            <img src={atras} alt="" className="imagenAtras" />
+          </Link>
         </div>
         <label className="tuGenero">Tu Género</label>
       </nav>
       <div className="segunda">
-      <img src={segunda} alt=""  className="segundaImg"/>
-      <label className="labelSegunda">INGRESÁ TU GÉNERO</label>
+        <img src={segunda} alt="" className="segundaImg" />
+        <label className="labelSegunda">INGRESÁ TU GÉNERO</label>
       </div>
       <div className="genero-container">
         <div className="btn-generos">
