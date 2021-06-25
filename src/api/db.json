@@ -334,6 +334,15 @@
       "email": "prof.jahz@gmail.com",
       "date": "1982-07-05",
       "id": 45
+    },
+    {
+      "name": "Alejandro",
+      "genero": {
+        "genero": "chico"
+      },
+      "email": "prof.jahz@gmail.com",
+      "date": "2018-04-19",
+      "id": 46
     }
   ]
 }

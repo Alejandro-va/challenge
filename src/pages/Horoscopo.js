@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import Fecha from "../components/Fecha";
 import Signo from "../components/Signo";
+import ListarHoroscopo from "../components/ListarHoroscopo";
 
 const Horoscopo = (props) => {
   let { form } = useParams();
@@ -23,6 +24,10 @@ const Horoscopo = (props) => {
   }; */
 
   /*     ['acuario', 'aries',' cancer','capricornio','esporpion','geminis', 'leo', 'libra', 'picis', 'sagitario', 'tauro', 'virgo' ] */
+const [zodiaco, setZodiaco] = useState()
+/*   const Listar = (props) =>{
+     setZodiaco()
+  } */
 
   return (
     <article>
@@ -32,6 +37,10 @@ const Horoscopo = (props) => {
       <Signo fsigno={form.date} /> Hola: "{form.name}" horoscopo Faltan{" "}
       <Fecha cumpleanos={form.date} />
       dias para tu cumpleaños
+      <ul>
+      <ListarHoroscopo />
+
+      </ul>
     </article>
   );
 };
