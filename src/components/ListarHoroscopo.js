@@ -1,38 +1,43 @@
-import React from "react";
-
-const ListarHoroscopo = () => {
-  //console.log(signo);
-  const [zodiaco, setZodiaco] = React.useState({});
+import React, { useState, useEffect } from "react";
+const ListarHoroscopo = (props) => {
+  const [zodiaco, setZodiaco] = useState({});
   const url = "https://api.adderou.cl/tyaas/";
 
-  React.useEffect(() => {
+  useEffect(() => {
     getHoroscopo(url);
-  }, []);
+  }, [url]);
 
   const getHoroscopo = async (url) => {
-    let res = await fetch(url);
-    let data = await res.json();
-    setZodiaco(data.horoscopo);
-    console.log(zodiaco);
+    try {
+      let res = await fetch(url);
+      let data = await res.json();
+      console.log("DATA", data);
+      setZodiaco(data.horoscopo["geminis"]);
+
+      if (!res.err) {
+      } else {
+        setZodiaco(null);
+      }
+      /* if (!res.ok) throw { status: res.status, statusText: res.statusText }; */
+      //console.log(data, res);
+    } catch (err) {
+      console.log(err);
+    }
   };
 
-  const nombre = zodiaco["acuario"].nombre;
-  const amor = zodiaco["acuario"].amor;
-  const color = zodiaco["acuario"].color;
-  const dinero = zodiaco["acuario"].dinero;
-  const fechaSigno = zodiaco["acuario"].fechaSigno;
-  const numero = zodiaco["acuario"].numero;
-  const salud = zodiaco["acuario"].salud;
+  console.log(zodiaco);
+
+  // let signo = "aries";
   return (
     <>
       <ul>
-        <li>Signo: {nombre}</li>
-        <li>Amor: {amor}</li>
-        <li>Color: {color}</li>
-        <li>Diner: {dinero}</li>
-        <li>Fecha de Signo: {fechaSigno}</li>
-        <li>Número: {numero}</li>
-        <li>Salud: {salud}</li>
+        <li>Signo: {zodiaco.nombre}</li>
+        <li>Amor: {zodiaco.amor}</li>
+        <li>Color: {zodiaco.color}</li>
+        <li>Diner: {zodiaco.dinero}</li>
+        <li>Fecha de Signo: {zodiaco.fechaSigno}</li>
+        <li>Número: {zodiaco.numero}</li>
+        <li>Salud: {zodiaco.salud}</li>
       </ul>
     </>
   );
